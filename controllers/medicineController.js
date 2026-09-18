@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("../models/user");
 const Medicine = require("../models/medicine")
 const { sendReminderSms } = require("../utils/sendSms");
 // ADD MULTIPLE MEDICINES
