@@ -1,7 +1,7 @@
 const cron = require("node-cron");
 
 const Medicine = require("../models/medicine");
-const User = require("../models/User");
+const User = require("../models/user");
 
 const { sendReminderSms } = require("./sendSms");
 
